@@ -4,7 +4,18 @@
 }
 .head{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     height: 944px;
     background-color: #28574E;
+    color: #FFF;
+}
+
+.container h1{
+    margin-top: 175px;
+}
+
+.head input{
+    
 }
