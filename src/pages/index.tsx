@@ -11,7 +11,7 @@ export default function Home(){
 
       <div className={style.container}>
         <div className={style.head}>
-          <h1>Nós Cuidamos Da Sua Saúde e Bem Estar</h1><br />
+          <h1>Nós Cuidamos Da Sua Saúde e</h1><br /><h2>Bem Estar</h2>
           <Search/>
         </div>
       </div>
