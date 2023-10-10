@@ -72,7 +72,7 @@ export default function Home() {
                 <p className={style.global_plans_2_card_apartir}>A partir de</p>
                 <p className={style.global_plans_2_card_valor}> R$ 150,00</p>
                 <ul>
-                  <li>Cobertura Global de Saúde EM 50L-3Cr</li>
+                  <li>Cobertura Global de Saúde em 50L-3Cr</li>
                   <li>Conselheiro de Saúde</li>
                   <li>Medicamentos com desconto</li>
                   <li>Assistência com visto</li>
@@ -88,7 +88,7 @@ export default function Home() {
                 <p className={style.global_plans_2_card_apartir}>A partir de</p>
                 <p className={style.global_plans_2_card_valor}> R$ 350,00</p>
                 <ul>
-                  <li>Cobertura Global de Saúde EM 50L-3Cr</li>
+                  <li>Cobertura Global de Saúde em 80S-3Cr</li>
                   <li>Conselheiro de Saúde</li>
                   <li>Medicamentos com desconto</li>
                   <li>Assistência com visto</li>
@@ -101,7 +101,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          
+
       </div>
     </>
   )
