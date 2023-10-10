@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import style from '../styles/Home.module.css';
 import { Search } from '../../components/Search';
+import { ForularioConsulta } from '../../components/Formulario_Consuta';
 import Image from 'next/image';
 import medico from '../images/medico.png';
 import paciente from '../images/paciente.png';
@@ -8,6 +9,21 @@ import msg from '../icons/Group.svg';
 import hosp from '../icons/predio-1.svg';
 import world from '../icons/world.svg';
 import tele_doctor  from '../images/tele_doctor.png';
+import onco  from  '../icons/ancologia.svg';
+import endoc from '../icons/endocrinologia.svg';
+import infert from '../icons/infertilidade.svg';
+import saude_m from '../icons/saude_mental.svg';
+import cardio from '../icons/cardiologia.svg';
+import neuro from '../icons/neurologia.svg';
+import reumo from '../icons/reumatologia.svg';
+import plstic from '../icons/cirurgia_plastica.svg';
+import doen_rar from '../icons/doencas_raras.svg';
+import gravid from '../icons/gravidez.png';
+
+
+
+
+
 
 export default function Home() {
   return (
@@ -102,6 +118,53 @@ export default function Home() {
             </div>
           </div>
 
+        <div className={style.treatments}>
+          <h2>Nossos Tratamentos</h2>
+          <div className={style.treatments_int}>
+            <div className={style.treatments_card}>
+              <Image src={onco} alt='oncologia'/>
+              <p>Oncologia</p>
+            </div>
+            <div className={style.treatments_card}>
+              <Image src={endoc} alt='Endocrinologia'/>
+              <p>Endocrinologia</p>
+            </div>
+            <div className={style.treatments_card}>
+            <Image src={infert} alt='Infertilidade'/>
+              <p>Infertilidade</p>
+            </div>
+            <div className={style.treatments_card}>
+            <Image src={saude_m} alt='Saúde Mental'/>
+              <p>Saúde Mental</p>
+            </div>
+            <div className={style.treatments_card}>
+            <Image src={cardio} alt='Cardiologia'/>
+              <p>Cardiologia</p>
+            </div>
+            <div className={style.treatments_card}>
+            <Image src={neuro} alt='Neurologia'/>
+              <p>Neurologia</p>
+            </div>
+            <div className={style.treatments_card}>
+            <Image src={reumo} alt='Reumatologia'/>
+              <p>Reumatologia</p>
+            </div>
+            <div className={style.treatments_card}>
+            <Image src={plstic} alt='Cirurgia Plástica'/>
+              <p>Cirurgia Plástica</p>
+            </div>
+            <div className={style.treatments_card}>
+            <Image src={doen_rar} alt='Doenças Raras'/>
+              <p>Doenças Raras</p>
+            </div>
+            <div className={style.treatments_card}>
+            <Image src={gravid} alt='Gravidez'/>
+              <p>Gravidez</p>
+            </div>
+          </div>
+        </div>
+
+      <ForularioConsulta/>
       </div>
     </>
   )

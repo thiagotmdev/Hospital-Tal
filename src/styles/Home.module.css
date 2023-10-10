@@ -267,3 +267,46 @@
     margin-top: 60px;
     cursor: pointer;
 }
+
+.treatments {
+    display: flex;
+    flex-direction: column;
+    width: 1256px;
+    height: 585px;
+    margin-top: 150px;
+}
+
+.treatments h2 {
+    color: #28574E;
+    font-family: Recoleta;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.treatments_int {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    gap: 36px;
+}
+
+.treatments_card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+    height: 218px;
+    border-radius: 30px;
+    background: #F9F9F9;
+}
+
+.treatments_card img{
+    width: 57px;
+    height: 57px;
+}
+
+.treatments_card p{
+    margin-top: 10px;
+}
