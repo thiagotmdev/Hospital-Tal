@@ -29,7 +29,7 @@ export const ForularioConsulta = () => {
                         <Textarea
                             placeholder='Digite aqui a sua mensagem'
                             minRows={30}
-                            cols={60}
+                            cols={95}
                             name='mensagem'
                             className={style.msg}
                         />
@@ -39,7 +39,7 @@ export const ForularioConsulta = () => {
                 <div className={style.container_2}>
                     <Image src={doctor_consult} alt='' />
                 </div>
-                
+
             </div>
         </>
     )
