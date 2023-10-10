@@ -122,7 +122,6 @@
 
 .teleconsult_info h2 {
     display: flex;
-    justify-content: start;
     width: 421px;
     height: 84px;
     color: #FFF;
@@ -157,4 +156,114 @@
     height: 480px;
     margin-top: -101px;
     margin-right: 30px;
+}
+
+.global_plans {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1010px;
+    background: #1E232F;
+    margin-top: 300px;
+}
+
+.global_plans_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.global_plans_1 h2 {
+    color: #FFF;
+    font-family: Recoleta;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.global_plans_1 p {
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 40px;
+}
+
+.global_plans_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.global_plans_2_card {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    width: 578px;
+    height: 584px;
+    border-radius: 40px;
+    margin-top: 60px;
+    padding: 45px;
+    background: rgba(135, 154, 179, 0.1);
+
+}
+
+.global_plans_2_card_title {
+    color: #FFF;
+    font-family: Outfit;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.global_plans_2_card_apartir {
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.47);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.global_plans_2_card_valor {
+    color: #FFF;
+    font-family: Recoleta;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 141.5%;
+}
+
+.global_plans_2_card ul {
+    margin-top: 45px;
+}
+
+.global_plans_2_card li {
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.global_plans_2_card_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 168px;
+    height: 56px;
+    border-radius: 28px;
+    background: #FFF;
+    margin-top: 60px;
+    cursor: pointer;
 }
