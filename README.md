@@ -2,7 +2,7 @@
 
 ### Screenshot
 
-![](./src/assets/images/screenshot.webp)
+![](./src/assets/images/screenshot.png)
 
 ## Para baixar o projeto faça o seguinte:
 
