@@ -14,7 +14,6 @@ import espanha from '../../src/images/espanha.png';
 
 export const Footer = () => {
     return (
-        <>
             <div className={style.footer}>
                 <div className={style.footer_int_1}>
                     <div className={style.footer_logo}>
@@ -38,8 +37,10 @@ export const Footer = () => {
 
                     <div className={style.footer_int_2_bloc}>
                         <h3 className={style.link}>Links</h3>
-                        {navigationLinks.map((link) => (
-                            <Link className={style.footer_link} href={link.path[0]}>{link.lable}</Link>
+                        {navigationLinks.map((link, index) => (
+                            
+                                <Link className={style.footer_link} key={index} href={link.path[0]}>{link.lable}</Link>
+                            
                         ))}
                     </div>
 
@@ -78,6 +79,5 @@ export const Footer = () => {
                 <hr />
                 <p className={style.copy}>Site criado por: Thiago Mendes - © Todos os direitos reservados</p>
             </div>
-        </>
     )
 }

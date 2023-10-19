@@ -1,5 +1,8 @@
 .container{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
 }
 .container li{
@@ -10,4 +13,82 @@
 .container a{
     text-decoration: none;
     color: #FFF;
+}
+
+.menu_toggle{
+    display: none;
+}
+
+.menu_mobile_none{
+    display: none;
+}
+
+@media (max-width: 765px){
+    .container{
+        gap: 10px;
+    }
+
+    .container li{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 600px){
+    .container{
+        display: flex;
+        justify-content: space-between;
+        display: none;
+    }
+
+    .menu_mobile_none{
+        display: none;
+    }
+
+    .menu_mobile{
+        width: 130px;
+        height: auto;
+        position: absolute;
+        display: flex;
+        padding: 10px;
+        margin-top: 130px;
+        right: 0;
+        justify-content: space-between;
+        background-color: #00b386;
+        border-radius: 3px 0px 0px 3px;
+        transition: 1.5 ease-in;
+    }
+
+    .menu_mobile li{
+       margin-bottom: 10px;
+       list-style: none;
+    }
+
+    .menu_mobile a{
+        text-decoration: none;
+        color: #FFF;
+    }
+
+    .menu_toggle{
+        display: block;
+    }
+
+    .menu_toggle_none{
+        display: none;
+    }
+
+    .menu_toggle_none{
+        display: none;
+    }
+
+    .menu_mobile button{
+        background: none;
+        border: none;
+        margin-top: -130px;
+    }
+
+    .close img{
+        width: 20px;
+        height: 20px;
+    }
+
 }

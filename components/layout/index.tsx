@@ -7,17 +7,12 @@ type Props = {
     children: ReactElement;
 }
 
-export const Layout = ({children}: Props) =>{
-    return(
-        <div className={styles.container}>
-            <header>
-                <Cabecalho/>
-            </header>
-            <br />
+export const Layout = ({ children }: Props) => {
+    return (
+        <>
+            <header><Cabecalho /></header>
             <main>{children}</main>
-            <footer>
-                <Footer/>
-            </footer>
-        </div>
+            <footer><Footer /></footer>
+        </>
     );
 }

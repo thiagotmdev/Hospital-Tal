@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import style from '../styles/Home.module.css';
 import { Search } from '../../components/Search';
-import { ForularioConsulta } from '../../components/Formulario_Consuta';
+import { FormularioConsulta } from '../../components/Formulario_Consuta';
 import Image from 'next/image';
 import medico from '../images/medico.png';
 import paciente from '../images/paciente.png';
@@ -164,7 +164,7 @@ export default function Home() {
           </div>
         </div>
 
-        <ForularioConsulta />
+        <FormularioConsulta />
       </div>
     </>
   )

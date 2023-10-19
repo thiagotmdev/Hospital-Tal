@@ -136,3 +136,27 @@
     font-style: normal;
     font-weight: 500;
 }
+
+@media (max-width: 765px){
+    .footer_int_2{
+        flex-wrap:wrap;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 600px){
+
+    .footer_int_1{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer_int_2{
+        flex-wrap:wrap;
+        gap: 50px;
+    }
+
+    .copy{
+        text-align: center;
+    }
+}

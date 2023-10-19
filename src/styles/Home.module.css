@@ -310,3 +310,190 @@
 .treatments_card p{
     margin-top: 10px;
 }
+
+@media (max-width: 765px){
+    .head h1{
+        font-size: 32px;
+        margin-top: 250px;
+    }
+
+    .cont_medico{
+        width: 620px;
+        height: 420px;
+        margin-top: 240px;
+    }
+
+    .img_medico{
+        width: 580px;
+        height: 380px;
+    }
+
+    .img_paciente{
+        width: 170px;
+        height: 120px;
+    }
+
+    .cont_info_int2{
+        flex-direction: column;
+    }
+
+    .teleconsult{
+        width: 650px;
+        height: auto;
+    }
+
+    .teleconsult_info{
+        z-index: 1;
+        margin-left: -50px;
+    }
+    
+    .teleconsult_image{
+        margin-left: -250px;
+    }
+
+    .global_plans{
+        height: auto;
+        padding: 50px;
+    }
+    
+    .global_plans_2{
+        flex-direction: column;
+    }
+
+    .treatments{
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        padding: 30px;
+        margin-top: 180px;
+    }
+
+    .treatments_int{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .treatments_card{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 600px){
+
+    .head{
+        height: 780px;
+    }
+
+    .head h1{
+        font-size: 25px;
+        margin-top: 250px;
+    }
+
+    .head h2{
+        font-size: 36px;
+    }
+
+    .cont_medico{
+        margin-top: -800px;
+        width: 350px;
+        height: 290px;
+        margin-top: 590px;
+        position: absolute;
+    }
+
+    .img_medico{
+        width: 310px;
+        height: 250px;
+    }
+
+    .img_paciente{
+        width: 90px;
+        height: 55px;
+        margin-right: -10px;
+    }
+
+    .cont_info{
+        max-width: 320px;
+    }
+
+    .cont_info_int1{
+        max-width: 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+    }
+
+    .cont_info_int2{
+        flex-direction: column;
+    }
+
+    .teleconsult{
+        text-align: center;
+        width: 420px;
+    }
+
+    .teleconsult_info h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 22px;
+        margin-left: 40px;
+    }
+    
+    .teleconsult_image{
+        display: none;
+    }
+
+    .btn_tele{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-left: 175px;
+    }
+
+    .global_plans{
+        width: 320px;
+        height: auto;
+        padding: 50px;
+        margin-bottom: 120px;
+        border-radius: 5px;
+    }
+    
+    .global_plans_2{
+        flex-direction: column;
+    }
+
+    .global_plans_2_card{
+        width: 290px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .global_plans_2_card_button{
+        margin-bottom: 30px;
+    }
+
+    .treatments{
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        padding: 30px;
+        margin-top: 180px;
+    }
+
+    .treatments_int{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .treatments_card{
+        width: 150px;
+        height: 150px;
+    }
+}

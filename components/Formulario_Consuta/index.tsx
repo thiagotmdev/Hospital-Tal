@@ -4,7 +4,7 @@ import { Textarea } from '@nextui-org/input';
 import Image from 'next/image';
 import doctor_consult from '../../src/images/doctor_consult.png';
 
-export const ForularioConsulta = () => {
+export const FormularioConsulta = () => {
 
     const handleMsg = () => {
         return;

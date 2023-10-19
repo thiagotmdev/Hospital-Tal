@@ -22,3 +22,36 @@
     color: #FFF;
     font-size: 18px;
 }
+
+@media (max-width: 765px){
+    .input_field{
+        display: flex;
+        align-items: center;
+        width: 465px;
+        height: 55px;
+    }
+
+    .input_text{
+        width: 250px;
+        height: 13px;
+        line-height: 23px;
+    }
+    
+    .input_field img{
+        line-height: 55px;
+    }
+    
+}
+
+@media (max-width: 600px){
+    .input_field{
+        max-width: 354px;
+        height: 42px;
+    }
+
+    .input_text{
+        max-width: 254px;
+        height: auto;
+        line-height: 23px;
+    }
+}

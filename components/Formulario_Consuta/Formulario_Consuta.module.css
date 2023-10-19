@@ -80,3 +80,68 @@
     border-right: 1px solid transparent;
     border-left: 1px solid transparent;
 }
+
+@media (max-width: 765px){
+    .container{
+        width: 620px;
+        height: 450px;
+        margin-top: 350px;
+        padding: 40px;
+    }
+
+    .container h2{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: 25px;
+        margin-top: 20px;
+        width: 620px;
+        height: auto;
+        margin-left: -40px;
+    }
+
+    .container_2{
+        display: none;
+    }
+
+    .form{
+        margin-bottom: 20px;
+    }
+
+    .form textarea{
+        width: 550px;
+        height: 220px;
+    }
+
+    .form button{
+        width: 120px;
+        height: 30px;
+        margin-top: -10px;
+        
+    }
+}
+
+@media (max-width: 600px){
+    .container{
+        width: 320px;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .container_1 h2{
+        width: 320px;
+        margin-left: 5px;
+        font-size: 25px;
+    }
+
+    .form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .form textarea{
+        width: 290px;
+    }
+}

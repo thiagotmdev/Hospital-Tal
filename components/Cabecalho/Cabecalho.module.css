@@ -1,11 +1,10 @@
 .container{
-    display:-webkit-flex;
-    justify-content: space-around;
+    display:flex;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     height: auto;
     padding: 20px;
-    position: absolute;
     color: #FFF;
     background-color: #28574E;
 }
