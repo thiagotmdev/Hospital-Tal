@@ -77,7 +77,7 @@ export const Footer = () => {
                     </div>
                 </div>
                 <hr />
-                <p className={style.copy}>Site criado por: Thiago Mendes - © Todos os direitos reservados</p>
+                <p className={style.copy}>Site criado por: Thiago Mendes - Archmake Studio- © Todos os direitos reservados</p>
             </div>
     )
 }
